@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-a": "projectionist-atom:open",
+    "ctrl-alt-v": "projectionist-atom:open-split-vert",
+    "ctrl-alt-s": "projectionist-atom:open-split"
+  }
+}
