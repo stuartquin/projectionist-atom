@@ -1,15 +1,13 @@
 {
   "name": "projectionist-atom",
   "main": "./lib/projectionist-atom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Project configurations with projections",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/stuartquin/projectionist-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
