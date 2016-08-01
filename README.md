@@ -28,16 +28,18 @@ And `.projections.json`:
 
 ```
 {
-  "app/models/*.py": {
-    "alternate": "app/tests/test_{}.py",
-    "type": "source"
+  "app/models/*.py": {                   # Glob to match file open in editor
+    "alternate": "app/tests/test_{}.py"  # File to load as alternate
   }
 }
 ```
 
 If we open the 'my-project' folder in atom and are editing `users.py`
-we can open the Command Palette and type `Projectionist` and open in tab
-(Ctrl-Alt-a), split (Ctrl-Alt-s) or vertical-split (Ctrl-Alt-v)
+we can use the Command Palette and type `Projectionist` to open the corresponding
+test file in a tab (Ctrl-Alt-a), split (Ctrl-Alt-s) or vertical-split (Ctrl-Alt-v).
 
 If [ex-mode](https://atom.io/packages/ex-mode) is installed vim-like commands
 are available - `:AT`, `:AS` and `:AV` for tab, split and vertical-split
+
+In alternate fileds, `{}` will be replaced by the portion of the glob matched
+by the `*`.  
